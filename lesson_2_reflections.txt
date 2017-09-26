@@ -1,0 +1,8 @@
+# What happens when you initialize a repository? Why do you need to do it?
+
+A .git hidden directory is created which will contain all the tracking metadata associated with the repo
+
+# How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+You can add files to the staging area before committing them; intermediate between the working directory and the repository. This allows you to choose which files you want to add. Can add multiple, one at a time, and then commit whole staging area bundled together
+
